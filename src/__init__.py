@@ -1,4 +1,7 @@
 import logging
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configure the logging strategy
 logging.basicConfig(
@@ -9,3 +12,5 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
+
+

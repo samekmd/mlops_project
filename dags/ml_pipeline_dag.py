@@ -25,7 +25,7 @@ default_args = {
 
 with DAG(
     "ml_pipeline",
-    default_args=default_args,
+    default_args=default_args
 ) as dag:
     # DVC Pipeline Stages
     dvc_stages = get_dvc_stages()
